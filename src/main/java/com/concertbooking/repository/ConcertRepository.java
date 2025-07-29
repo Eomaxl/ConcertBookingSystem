@@ -14,5 +14,5 @@ public interface ConcertRepository {
 
     List<Concert> searchByArtist(String artist);
 
-    List<Concert> searchByTitle(String title);
+    List<Concert> searchByVenue(String venue);
 }
